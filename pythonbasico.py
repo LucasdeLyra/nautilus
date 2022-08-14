@@ -1,8 +1,4 @@
-
 #Questão 1
-import re
-
-
 def first_equals_last(numberslist):
     return numberslist[0] == numberslist[-1]
 
