@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find learning_tf2)/nodes/params.yaml"/>
+  <node name="star_position" pkg="learning_tf2" type="star.py"/>
+</launch>
